@@ -1,0 +1,78 @@
+* {margin: 0; padding: 0;}
+a{ color: inherit; text-decoration: none; }
+ul {list-style: none;}
+
+header{background: #8ade29; padding: 10px; float: left; width: 100%;}
+header a.logo{    width: 20%; float: left;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;}
+header form{float: left;
+    width: 55%;
+    margin: 0 20px;}
+header .search-input{background: #545454;
+    width: 100%;
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 16px;}
+header .github-button{font-family: sans-serif;
+    font-size: 16px; float: left; width: 20%;}
+
+.container{width: 80%;
+    padding: 10px; margin: auto;}
+.search-results{ }
+.search-results .news-article{width: 96%;
+    float: left;
+    border: 2px #dedede solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;}
+.search-results .news-article div{width: 70%;
+    float: left;}
+.search-results .news-article a .title{
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    transition-duration: 0.6s;
+}
+.search-results .news-article a:hover .title{color: #4CAF50; transition-duration: 0.6s;}
+.search-results .news-article .description{font-family: sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px; color: #888888;}
+.search-results .news-article .metadata{width: 100%;}
+.search-results .news-article .metadata .source{font-family: cursive;
+    font-size: 15px;
+    color: #61a01a;}
+.search-results .news-article .metadata .published-date{font-family: cursive;
+    font-size: 15px;
+    color: #61a01a;}
+.search-results .news-article img{ width: 28%;
+    float: left; margin-left: 2%;}
+.search-results .news-article .article-image{max-width: 100%;}
+
+.result-count{width: 100%;
+    float: left;
+    padding: 20px;
+    text-align: center;}
+.result-count p{    font-size: 18px;
+    font-family: sans-serif;
+    color: #545454;}
+
+.pagination{    width: 100%;
+    float: left;
+    padding: 10px; text-align: center;}
+.pagination a{background: #4CAF50;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    float: left;
+transition-duration: 0.6s;}
+ .pagination a:hover{
+ 	background: #3e8e41;
+ 	transition-duration: 0.6s;
+ }
